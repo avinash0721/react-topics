@@ -16,17 +16,21 @@ body {
 button {
   width: auto;
   /* height: 2rem; */
-  font-size: 2rem;
-  background-color: rgb(138, 234, 234);
+  padding: 5px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  border-radius: 20px;
+  background-color: rgb(190, 192, 192);
+  cursor: pointer;
 }
 
 span {
   font-size: 2rem;
-  color: blue;
+  color: rgb(60, 60, 61);
 }
 
 h1 {
-  color: rgb(15, 43, 255);
+  color: rgb(255, 179, 15);
   font-size: 3rem;
 }
 
@@ -64,4 +68,16 @@ h2 {
   width: 25%;
   height: 3rem;
   margin: 20px;
+}
+
+.list {
+  width: auto;
+  padding: 10px;
+  background-color: rgb(205, 205, 204);
+  color: rgb(63, 62, 62);
+  margin: 10px;
+}
+
+h3 {
+  color: white;
 }
