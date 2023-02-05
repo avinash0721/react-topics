@@ -1,4 +1,3 @@
-import { log } from "mathjs";
 import { useState } from "react";
 
 const UseStateExample3 = () => {
