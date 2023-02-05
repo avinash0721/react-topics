@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+// NOTE: useState Hook => is a special function which takes one argument. The argument passed to useState is initial state. It returns an array of two entries. The first element is the initial state and the second is a function which is used for updating state.
+
 const UseState1 = () => {
   const [count, setCount] = useState(0);
 
